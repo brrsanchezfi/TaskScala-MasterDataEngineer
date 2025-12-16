@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="separateProdTestSources" value="true" />
-    <profile name="sbt 1" modules="AirportApp,AirportApp.main,AirportApp.test,airportapp_1220,airportapp_1220.main,airportapp_1220.test" />
+    <profile name="sbt 1" modules="AirportApp,airportapp_1220,airportapp_1220.main,airportapp_1220.test" />
+    <profile name="sbt 2" modules="AirportApp.main,AirportApp.test">
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
   </component>
 </project>

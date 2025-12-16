@@ -4,6 +4,7 @@ import scala.util.Try
 
 object FlightsLoaderApp extends App {
 
+  // error en los paths
   def sanitize(name: String): String =
     name.replaceAll("[^a-zA-Z0-9-_\\.]", "_")
 

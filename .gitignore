@@ -1,0 +1,52 @@
+# =====================
+# Scala / sbt
+# =====================
+target/
+project/target/
+project/.sbtboot/
+project/.bsp/
+.metals/
+.bloop/
+
+# Archivos compilados
+*.class
+*.log
+
+# =====================
+# Dependencias locales
+# =====================
+lib_managed/
+dist/
+tmp/
+
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+# =====================
+# Metales / BSP
+# =====================
+.bsp/
+.metals/
+
+# =====================
+# SO
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Otros
+# =====================
+.env
+*.swp

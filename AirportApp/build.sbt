@@ -3,6 +3,11 @@ import sbtassembly.AssemblyPlugin.defaultShellScript
 
 ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "2.13.15"
+
+// 🔹 Forzar Java 8 - por un error en los test
+ThisBuild / javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
+ThisBuild / scalacOptions ++= Seq("-target:jvm-1.8")
+
 ThisBuild / assemblyPrependShellScript := Some(defaultShellScript)
 
 val mainClassName = "FlightsLoaderApp"

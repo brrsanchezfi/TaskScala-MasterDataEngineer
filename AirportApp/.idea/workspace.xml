@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35dbec50-5f2b-4422-bdbf-9777210693f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metals/metals.lock.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metals/metals.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metals/metals.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metals/metals.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../.metals/metals.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/FlightsLoaderApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/FlightsLoaderApp.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -60,11 +68,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/scala/test.sc" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="ScalaTestRunConfiguration" name="FlightTest.A Flight should be correctly initialized from string" />
-    </enabled-run-configurations>
-  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -99,6 +102,7 @@
     "ScalaTest.FileUtilsTest.Lines from file should be read correctly.executor": "Run",
     "ScalaTest.FileUtilsTest.executor": "Run",
     "ScalaTest.FlightDateTest.A FlightDate should be correctly initialized from string.executor": "Run",
+    "ScalaTest.FlightDateTest.A FlightDate should print its value in corrected format: DD/MM/YYYY.executor": "Run",
     "ScalaTest.FlightDateTest.A FlightDate should raise an Exception because of wrong string format.executor": "Run",
     "ScalaTest.FlightDateTest.executor": "Run",
     "ScalaTest.FlightTest.A Flight should be correctly initialized from Row.executor": "Run",
@@ -123,7 +127,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -145,7 +149,7 @@
       <recent name="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp\src\test\scala" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.FlightDateTest.A FlightDate should raise an Exception because of wrong string format">
     <configuration name="FlightDateTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="AirportApp.test" />
       <option name="VMParameters" value="" />
@@ -205,7 +209,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightDateTest.A FlightDate should raise an Exception because of wrong string format" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="FlightDateTest.A FlightDate should print its value in corrected format: DD/MM/YYYY" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="AirportApp.test" />
       <option name="VMParameters" value="" />
       <option name="allowRunningInParallel" value="false" />
@@ -229,7 +233,40 @@
       <option name="testKind" value="Test name" />
       <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
       <option name="testClassPath" value="data.FlightDateTest" />
+      <option name="testName" value="A FlightDate should print its value in corrected format: DD/MM/YYYY" />
+      <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightDateTest.A FlightDate should raise an Exception because of wrong string format" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="AirportApp.test" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" value="$PROJECT_DIR$/../../../../../../Program Files/Eclipse Adoptium/jdk-8.0.472.8-hotspot" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
+      <option name="jrePath" value="$PROJECT_DIR$/../../../../../../Program Files/Eclipse Adoptium/jdk-8.0.472.8-hotspot" />
+      <option name="shortenClasspath" value="NONE" />
+      <option name="testClassPath" value="data.FlightDateTest" />
       <option name="testName" value="A FlightDate should raise an Exception because of wrong string format" />
+      <option name="useSbt" value="true" />
       <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,43 +302,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.A Flight should be delayed with negative minutes" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="AirportApp.test" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
-      <option name="testClassPath" value="data.FlightTest" />
-      <option name="testName" value="A Flight should be delayed with negative minutes" />
-      <option name="workingDirectory" value="C:\Users\braya\OneDrive\Escritorio\TaskScala-MasterDataEngineer\AirportApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="ScalaTest.FlightDateTest" />
+      <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should be correctly initialized from string" />
+      <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should print its value in corrected format: DD/MM/YYYY" />
+      <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should raise an Exception because of wrong string format" />
+      <item itemvalue="ScalaTest.FlightTest.A Flight should be correctly initialized from Row" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should raise an Exception because of wrong string format" />
-        <item itemvalue="ScalaTest.FlightDateTest" />
         <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should be correctly initialized from string" />
+        <item itemvalue="ScalaTest.FlightDateTest.A FlightDate should print its value in corrected format: DD/MM/YYYY" />
+        <item itemvalue="ScalaTest.FlightDateTest" />
         <item itemvalue="ScalaTest.FlightTest.A Flight should be correctly initialized from Row" />
-        <item itemvalue="ScalaTest.FlightTest.A Flight should be delayed with negative minutes" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +326,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -337,6 +350,7 @@
       <workItem from="1765210523217" duration="5334000" />
       <workItem from="1765219290737" duration="21125000" />
       <workItem from="1765241017466" duration="12291000" />
+      <workItem from="1765682984734" duration="7000" />
     </task>
     <servers />
   </component>
@@ -379,5 +393,9 @@
         <watch expression="((FlightsLoaderApp)this).filePath" custom="FlightsLoaderApp" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
